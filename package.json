@@ -1,7 +1,7 @@
 {
   "name": "express-with-slack",
   "version": "1.0.0",
-  "description": "Express app with slack",
+  "description": "Express app with slack and auth0",
   "main": "app.js",
   "scripts": {
     "test": "npm test",
