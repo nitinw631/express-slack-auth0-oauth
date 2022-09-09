@@ -1,7 +1,7 @@
 {
-  "name": "express-with-slack-and-auth0",
+  "name": "express-with-slack-and-auth0-and-oauth",
   "version": "1.0.0",
-  "description": "Express app with slack and auth0 login",
+  "description": "Express app with slack using oauth and auth0 login",
   "main": "app.js",
   "scripts": {
     "test": "npm test",
