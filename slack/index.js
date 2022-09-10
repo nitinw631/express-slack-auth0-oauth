@@ -1,7 +1,9 @@
 const { App, ExpressReceiver } = require('@slack/bolt');
-// const { FileInstallationStore } = require('@slack/oauth');
 const { registerListeners } = require('./listeners');
 const database = require("../database/db");
+// const routes = require('./routes/router');
+// var slackReceiver = require('./routes/receiver');
+
 
 database.connect();
 
