@@ -6,10 +6,13 @@ const {
   getHomeData
 } = require('./services/home');
 
-var slackRouter = require('./slack/routes/install');
+var slackRouter = require('./slack');
 
 const app = express();
 const port = 3000;
+
+// set the view engine to ejs
+app.set('view engine', 'ejs');
 
 // auth router attaches /login, /logout, and /callback routes to the baseURL
 app.use(auth0);
